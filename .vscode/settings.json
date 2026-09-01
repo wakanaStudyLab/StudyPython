@@ -1,0 +1,14 @@
+{
+    // 静的型チェックの厳格度設定 ("off", "basic", "standard", "strict")
+    "python.analysis.typeCheckingMode": "basic",
+
+    // 自動インポート補完
+    "python.analysis.autoImportCompletions": true,
+
+    // ファイルエンコーディング (UTF-8)
+    "files.encoding": "utf8",
+
+    // 保存時の末尾空白の自動削除と改行の確保
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}
