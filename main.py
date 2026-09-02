@@ -52,6 +52,10 @@ def main() -> None:
     print_section("04: Async/Await (asyncio TaskGroup) and Concurrency")
     async_mod.run()
 
+    lambda_mod = importlib.import_module("05_lambdas_and_closures")
+    print_section("05: Lambdas, Closures, and Late Binding")
+    lambda_mod.run()
+
     print_banner("ALL PYTHON TUTORIAL MODULES COMPLETED SUCCESSFULLY!")
 
 
