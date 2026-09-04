@@ -7,8 +7,6 @@ Rust, C#, Go, Java などの静的型付け言語を習得済みのエンジニ�
 ## 🚀 クイックスタート (実行方法)
 
 ```powershell
-cd C:\Users\harun\programming\python\sample
-
 # 実行
 python main.py
 
@@ -75,12 +73,12 @@ python main.py
 
 | ファイル | テーマ | 主な学習内容 |
 | :--- | :--- | :--- |
-| [`01_types_and_dataclasses.py`](.e/01_types_and_dataclasses.py) | **型ヒント & Dataclass** | `int \| str` (Union), `@dataclass(frozen=True)`, `is` vs `==`, 可変デフォルト引数の罠 |
-| [`02_pattern_matching_and_control.py`](.e/02_pattern_matching_and_control.py) | **パターンマッチング & 内包表記** | Python 3.10+ `match ... case`, ガード節 `if`, リスト/辞書内包表記, `yield` ジェネレータ, `:=` (Walrus) |
-| [`03_context_and_decorators.py`](.e/03_context_and_decorators.py) | **with文 & デコレータ** | `__enter__` / `__exit__`, `@contextmanager`, `@timeit` デコレータ, `functools.wraps`, Dunderメソッド |
-| [`04_async_and_concurrency.py`](.e/04_async_and_concurrency.py) | **並行・非同期・GIL対策** | Python 3.11+ `asyncio.TaskGroup` (構造化並行性), `ThreadPoolExecutor` vs `ProcessPoolExecutor` (GIL回避) |
-| [`05_lambdas_and_closures.py`](.e/05_lambdas_and_closures.py) | **ラムダ式 & クロージャ** | 単一式の制約、遅延バインディングの罠 (`i=i`), `__closure__` / cell, `nonlocal`, `operator` モジュール |
-| [`main.py`](.e/main.py) | **統合エントリーポイント** | 全モジュールを一括実行するランナー |
+| [`01_types_and_dataclasses.py`](./01_types_and_dataclasses.py) | **型ヒント & Dataclass** | `int \| str` (Union), `@dataclass(frozen=True)`, `is` vs `==`, 可変デフォルト引数の罠 |
+| [`02_pattern_matching_and_control.py`](./02_pattern_matching_and_control.py) | **パターンマッチング & 内包表記** | Python 3.10+ `match ... case`, ガード節 `if`, リスト/辞書内包表記, `yield` ジェネレータ, `:=` (Walrus) |
+| [`03_context_and_decorators.py`](./03_context_and_decorators.py) | **with文 & デコレータ** | `__enter__` / `__exit__`, `@contextmanager`, `@timeit` デコレータ, `functools.wraps`, Dunderメソッド |
+| [`04_async_and_concurrency.py`](./04_async_and_concurrency.py) | **並行・非同期・GIL対策** | Python 3.11+ `asyncio.TaskGroup` (構造化並行性), `ThreadPoolExecutor` vs `ProcessPoolExecutor` (GIL回避) |
+| [`05_lambdas_and_closures.py`](./05_lambdas_and_closures.py) | **ラムダ式 & クロージャ** | 単一式の制約、遅延バインディングの罠 (`i=i`), `__closure__` / cell, `nonlocal`, `operator` モジュール |
+| [`main.py`](./main.py) | **統合エントリーポイント** | 全モジュールを一括実行するランナー |
 
 > 📖 **Python ラムダ式 & クロージャの完全理解ガイド**:
 > なぜ代入してはいけないのか（PEP 8）、ループ変数キャプチャの落とし穴と解決策、バイトコードレベルの `cell` オブジェクトの仕組みまで完全網羅した解説は [**`LAMBDA.md`**](.e/LAMBDA.md) を参照してください。
